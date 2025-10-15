@@ -10,8 +10,11 @@ public class BuscarArray {
         int posicion = 0;
         for (int i = 0; i < numeros.length; i++) {
             if(numeros[i] == numeroBuscar){
-                
+                encontrado = numeros[i];
+                posicion = i + 1;
             }
         }
+        System.out.println("El numero " + encontrado + 
+        " se encuentra en la posicion " + posicion);
     }
 }
