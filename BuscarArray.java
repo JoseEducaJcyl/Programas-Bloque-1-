@@ -16,5 +16,6 @@ public class BuscarArray {
         }
         System.out.println("El numero " + encontrado + 
         " se encuentra en la posicion " + posicion);
+        scanner.close();
     }
 }
